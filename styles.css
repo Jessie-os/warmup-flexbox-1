@@ -1,0 +1,44 @@
+.header {
+    max-width: 600px;
+    margin: auto;
+    background-color: beige;
+}
+
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.main-nav {
+    display: flex;
+    list-style-type: none;
+    padding: 20px;
+    justify-content: center;
+}
+
+.nav-item {
+margin: 0 10px;
+background-color:cadetblue;
+padding: 10px;
+border-radius: 10px;
+text-decoration: none;
+}
+
+.main-content {
+    display: flex;
+    background-color:lightblue;
+    max-width: 600px;
+    margin: auto;
+    flex-direction: row-reverse;
+}
+
+.main {
+    padding: 20px;
+    }
+
+.side-nav{
+    padding: 20px;
+    margin-right: 20px;
+     }
